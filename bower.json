@@ -1,0 +1,16 @@
+{
+  "name": "angularMMM",
+  "version": "0.0.0",
+  "homepage": "https://github.com/david-davidson/tee",
+  "authors": [
+    "David Davidson <daviddavidson.1988@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
