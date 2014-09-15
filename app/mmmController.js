@@ -2,7 +2,7 @@
 
 module.exports = function(app) {
   app.controller('mmmController',
-    ['$scope', 'mmmService',
+    [ '$scope', 'mmmService',
     function($scope, mmmService) {
 
       $scope.calculate = function(input) {
@@ -25,11 +25,12 @@ module.exports = function(app) {
         	value: mmmService.mode(numbers)
         });
 
+        return $scope.results; // For testing
       };
 
       $scope.numbersEntered = function(input) {
       	return input.length > 0;
       };
 
-    }]);
+    } ]);
 };
