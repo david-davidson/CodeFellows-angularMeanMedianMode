@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body>
+    <div data-ng-app="mmm">
+      <div data-ng-controller="mmmController">
+
+        <form>
+          <p>Enter numbers, separated by spaces:</p>
+          <input type="text" data-ng-model="input">
+          <button data-ng-click="calculate(input)">Calculate</button>
+        </form>
+
+        <dd-results></dd-results>
+
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
